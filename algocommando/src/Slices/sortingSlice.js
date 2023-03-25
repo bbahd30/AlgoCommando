@@ -4,8 +4,7 @@ const sortingSlice = createSlice({
     name: 'sorting',
     initialState: {
         sortType: 'bubble',
-        array: [5, 8, 3, 2, 1],
-        arraySize: 5,
+        array: [3, 2, 4, 9, 1, 28, 3, 2],
         speed: 2,
         animation: false,
     },
