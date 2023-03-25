@@ -19,8 +19,19 @@ const sortingSlice = createSlice({
         },
         changeArray: (state, action) => 
         {
-            state.array = action.payload
-            state.arraySize = action.payload.size
+            state.array = action.payload['array']
+        },
+        addElement: (state, action) =>
+        {
+            state.array.splice(action.payload.index, 0, action.payload.element);
+        },
+        deleteElement: (state, action) =>
+        {
+            state.array.splice(action.payload.index, 1);
+        },
+        updateElement: (state, action) => 
+        {
+            state.array[action.payload['index']] = action.payload['element']
         },
         changeSortingMethod: (state, action) =>
         {
@@ -30,4 +41,4 @@ const sortingSlice = createSlice({
 })
 
 export default sortingSlice.reducer
-export const { startAnimation, setSpeed, changeArray, changeSortingMethod } = sortingSlice.actions
+export const { startAnimation, setSpeed, changeArray, changeSortingMethod, addElement, deleteElement, updateElement } = sortingSlice.actions
