@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+.container-array {
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #608dfd;
+    font-family: 'Kurale', serif;
+  }
+  
+  .label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+    color:whitesmoke;
+  }
+  
+  .input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .buttons-array{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: space-around; */
+    width:calc(100vw);
+  }
+  
+  .button-array {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FDD060;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .button-array:disabled {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor:not-allowed;
+  }
+  .button-array:disabled:hover {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor:not-allowed;
+  }
+  .button-array:hover {
+    background-color: #feb600;
+  }
+  
+  .array {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .array span {
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .highlight-array{
+    transition: ease-in 1s;
+    background-color: green;
+  }
+  .searching-array{
+    transition: ease-in 1s;
+    background-color: red;
+
+  }
+  .searched-array{
+    transition: ease-in 1s;
+    background-color: grey;
+
+  }
+  .search-unsuccessful-array{
+    color:red;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .search-successful-array{
+    color:green;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  

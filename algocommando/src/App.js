@@ -5,9 +5,14 @@ import './App.css';
 import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SortingPage from './Pages/SortingPage';
+import ArraySearchVisualizer from './Pages/ArraySearchPage';
 
 function App()
 {
+  
+
+
+
   return (
     <BrowserRouter>
       <Routes>
@@ -16,6 +21,8 @@ function App()
         <Route path='/learn'>
           {/* <Route index element={} /> */}
           <Route path='sorting' element={<SortingPage />} />
+          <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
