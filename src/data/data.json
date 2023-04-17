@@ -1,100 +1,115 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Visualize DSA with us",
+    "paragraph": " An interactive and engaging platform for learning, visualizing, and comparing Datastructures and algorithms in effective way."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We are an exceptional team of CSE sophomores from IIT Roorkee, who are dedicated to the craft of tackling real-world challenges in the software industry. We possess a strong foundation in computer science and engineering and are committed to utilise our skills to create a positive impact on the world. Whether it is improving user experiences, streamlining processes, or developing cutting-edge technologies, we are eager to take on the challenge. Our innovative ideas, collaborative spirit, and tireless work ethic make us a force to be reckoned with in the software industry. We are confident that our team will make a significant impact in the tech world in the years to come, and we are excited to be a part of this journey.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Skilled and passionate team",
+      "Strong computer science foundation",
+      "Diverse skillset and experiences",
+      "Collaboration and communication focused"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Timely project completion",
+      "Continuous improvement mindset",
+      "Clear and open communication",
+      "Passionate and impact-driven"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "MIT Opencourseware  Lectures",
       "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "smallImage": "img/MIT DSA lectures.jpg",
+      "href": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video_galleries/video-lectures/"
     },
     {
-      "title": "Project Title",
+      "title": "CSES problem Statement",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "smallImage": "img/CSES problem set.png",
+      "href": "https://cses.fi/problemset/list"
     },
     {
-      "title": "Project Title",
+      "title": "Topicwise Resources",
       "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "smallImage": "img/Topicwise Resources.jpeg",
+      "href": "https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit"
     },
     {
-      "title": "Project Title",
+      "title": "University o Texas Resources ",
       "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "smallImage": "img/Texas resources.png",
+      "href": "https://www.cs.utexas.edu/users/downing/cs104c/Resources.html"
     },
     {
-      "title": "Project Title",
+      "title": "Cp Algorithms",
       "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "smallImage": "img/Cp Algorithms.png",
+      "href": "https://cp-algorithms.com/"
     },
     {
-      "title": "Project Title",
+      "title": "Awesome List of Resources",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "smallImage": "img/Awesome List.png",
+      "href": "https://www.dcc.fc.up.pt/~pribeiro/aulas/pc1819/awesome/index.html"
     },
     {
-      "title": "Project Title",
+      "title": "Codeforces Blog",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "smallImage": "img/Codeforces blog.png",
+      "href": "https://codeforces.com/blog/entry/91363"
     },
     {
-      "title": "Project Title",
+      "title": "More on Codeforces blog",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "smallImage": "img/More Codeforces Blog.png",
+      "href": "https://codeforces.com/blog/entry/44991"
     },
     {
-      "title": "Project Title",
+      "title": "Competitive Programming Books",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "smallImage": "img/Cp books.png",
+      "href": "https://www.cs.purdue.edu/homes/ninghui/courses/cp_resources.html"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Track your progress",
+      "text": "Register your handle to track your your progress on different cp judge platforms.",
+      "href": "#"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-sort-amount-asc",
+      "name": "Sorting in Array",
+      "text": "Explore and visualize different sorting techniques on array",
+      "href": "/learn/arraySorting"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-search",
+      "name": "Searching in Array",
+      "text": "Analyze and depict various search algorithms for arrays.",
+      "href": "/learn/arraySearch"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-link",
+      "name": "Linkedlist",
+      "text": "Linkedlist are dynamic structures far more optimised than arrays.Visualize different operations & algorithms on linkedlist",
+      "href": "learn/linkedList"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tree",
+      "name": "Trees",
+      "text": "A binary tree is a special case of a tree data structure, where each node in the tree has at most two child nodes, known as the left child and the right child.Analyze different traversal algorithms on Binary search trees.",
+      "href": "learn/trees"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+      "href": "#"
     }
   ],
   "Testimonials": [
@@ -149,10 +164,20 @@
       "img": "img/team/04.jpg",
       "name": "Karen Doe",
       "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Computer Science Dept., IIT Roorkee, Roorkee Uttarakhand, India, 267667. ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
     "facebook": "fb.com",
@@ -161,24 +186,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-eye",
+      "title": "Visualize",
+      "text": "A real time simulation of how algorithms work on various data structures based on the custom data input by the user"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-line-chart",
+      "title": "Track",
+      "text": "A progress tracker for the advancements made by the user in Competitive Programming over a period of time"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-pencil-square-o",
+      "title": "Practice",
+      "text": "Practise the best topic-specific competitive programming questions from popular platforms.  "
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Resources",
+      "text": "Explore best resources for making your competitive programming journey easy."
     }
   ]
 }

@@ -6,10 +6,10 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Resources </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Here are some of the resources that we have curated for you to get
+            started.
           </p>
         </div>
         <div className="row">
@@ -20,11 +20,13 @@ export const Gallery = (props) => {
                     key={`${d.title}-${i}`}
                     className="col-sm-6 col-md-4 col-lg-4"
                   >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
+                    <a href={d.href}>
+                      <Image
+                        title={d.title}
+                        largeImage={d.largeImage}
+                        smallImage={d.smallImage}
+                      />
+                    </a>
                   </div>
                 ))
               : "Loading..."}

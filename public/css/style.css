@@ -260,6 +260,14 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+#features i.fa:hover {
+  /* background: linear-gradient(to right, #333333 0%, #666666 100%); */
+  background: #ffffff;
+  transition: ease-in 0.5s;
+  transition-property: all;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  color: #5ca9fb;
+}
 /* About Section */
 #about {
   padding: 100px 0;
@@ -311,6 +319,7 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+
   color: #fff;
 }
 #services .service-desc {
@@ -339,6 +348,14 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+#services i.fa:hover {
+  /* background: linear-gradient(to right, #333333 0%, #666666 100%); */
+  background: #ffffff;
+  transition: ease-in 0.5s;
+  transition-property: all;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  color: #5ca9fb;
+}
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
@@ -362,6 +379,9 @@ header .intro-text {
   overflow: hidden;
   position: relative;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hover-bg .hover-text {
   position: absolute;
