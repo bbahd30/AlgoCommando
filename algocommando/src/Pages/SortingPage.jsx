@@ -13,6 +13,8 @@ import CheckIcon from '@mui/icons-material/Check';
 import SortingSketch from '../Animations/SortingSketch'
 import { startAnimation } from '../Slices/sortingSlice'
 
+import '../css/ArraySort.css';
+
 const SortingPage = () =>
 {
     const dispatch = useDispatch()
@@ -71,18 +73,18 @@ const SortingPage = () =>
     
     return (
         <>
-            <Paper sx={{ boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.14)', backdropFilter: 'blur(18px)', '-webkit-backdrop-filter': 'blur(5px)', height: '100vh',  overflowY: 'hidden', background: 'linear-gradient(to bottom, #aaacee, #bfb8ff, #85c5ff, #4acefd, #39d2e0)'
+            <Paper sx={{ boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.14)', backdropFilter: 'blur(18px)', '-webkit-backdrop-filter': 'blur(5px)', minHeight: '100vh',   overflowY: 'hidden', background: '#608dfd'
             }} elevation={8} >
                 <Box style={{
                 alignItems: "center",
                 // height: "calc(100vh - 64px)",
                 borderRadius: '10px',
-                backgroundColor: 'rgba(255, 255, 255, 0.33',
+                backgroundColor: 'rgba(255, 255, 255, 0.33)',
                 padding: '3.5rem',
                 margin: '3rem'
                 }}>
-                    <Typography variant='h4'>
-                        Bubble Sort
+                    <Typography variant='h4'className="heading-array-sort">
+                        BUBBLE SORT
                     </Typography>
                     <SortingSketch />
                     <Box style={{marginTop: '1rem'}}>
@@ -126,7 +128,10 @@ const SortingPage = () =>
                             </>
                         ))}
                         </Grid>
-                        <Button onClick={() => dispatch(startAnimation())}>Visualize</Button>
+                        <br/>
+                        <center>
+                        <Button className="button-array" onClick={() => dispatch(startAnimation())}>Visualize</Button>
+                        </center>
                     </Box>
                 </Box>
             </Paper>

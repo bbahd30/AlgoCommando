@@ -20,7 +20,7 @@ function App()
         <Route path='/login' element={<LoginPage />} />
         <Route path='/learn'>
           {/* <Route index element={} /> */}
-          <Route path='sorting' element={<SortingPage />} />
+          <Route path='arraySorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
           
         </Route>
