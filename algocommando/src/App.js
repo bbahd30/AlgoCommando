@@ -14,6 +14,9 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SortingPage from './Pages/SortingPage';
 import ArraySearchVisualizer from './Pages/ArraySearchPage';
+
+import TreeRenderer from './Pages/TreePage';
+
 import GraphPage from './Pages/GraphPage';
 import LinkedListPage from './Pages/LinkedListPage';
 
@@ -28,8 +31,6 @@ function App()
 {
 
 
-
-
   return (
     <BrowserRouter>
       <Routes>
@@ -39,7 +40,12 @@ function App()
           <Route path='graph' element={<GraphPage />} />
           <Route path='arraySorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
+
+          <Route path='tree' element={<TreeRenderer />} />
+          
+
           <Route path='linkedList' element={<LinkedListPage/>} />
+
         </Route>
       </Routes>
     </BrowserRouter>
