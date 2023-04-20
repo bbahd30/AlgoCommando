@@ -12,7 +12,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                   {" "}
-                  <a href="#services">
+                  <a href={d.title==="Resources"?"#portfolio":"#services"}>
                     <i className={d.icon}></i>
                   </a>
                   <h3>{d.title}</h3>
