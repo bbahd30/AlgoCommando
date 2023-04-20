@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.heading-array-sort{
+    /* color:whitesmoke; */
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+.button-array {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2fd60;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .button-array:hover {
+    background-color: #feb600;
+  }
