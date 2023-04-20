@@ -9,6 +9,8 @@ import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import './App.css';
+// import "../public/css/bootstrap.css"
+
 
 import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
@@ -22,6 +24,7 @@ import LinkedListPage from './Pages/LinkedListPage';
 
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,

@@ -191,7 +191,7 @@ export default function ArraySearchVisualizer() {
   return (
     <>
     <Navigation />
-    <Header data={landingPageData.Header} />
+    <br></br>
     <div className="container-array">
       <label className="label" htmlFor="array">Array:</label>
       <input className="input" id="array" type="text" onChange={handleArrayChange} />

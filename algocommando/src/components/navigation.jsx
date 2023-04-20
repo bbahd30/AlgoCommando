@@ -58,11 +58,11 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="btn btn-custom btn-lg page-scroll" href="\login">
                 Login/SignUp
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

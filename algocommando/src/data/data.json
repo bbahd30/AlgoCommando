@@ -146,35 +146,37 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/Ayushka.jpeg",
+      "name": "Ayushka Sahu",
+      "job": "Student, IITR CSE"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/Bhoomi.jpeg",
+      "name": "Bhoomi Bonal",
+      "job": "Student, IITR CSE"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/Hrishit.jpeg",
+      "name": "Hrishit B P",
+      "job": "Student, IITR CSE"
+    },
+    
+    {
+      "img": "img/team/Sachin.jpeg",
+      "name": "Sachin Jangid",
+      "job": "Student, IITR CSE"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/Soham.jpeg",
+      "name": "Soham Singh",
+      "job": "Student, IITR CSE"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/Sutirtha.jpeg",
+      "name": "Sutirtha Ghosh",
+      "job": "Student, IITR CSE"
     }
+    
   ],
   "Contact": {
     "address": "Computer Science Dept., IIT Roorkee, Roorkee Uttarakhand, India, 267667. ",
