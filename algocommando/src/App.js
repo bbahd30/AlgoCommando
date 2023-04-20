@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SortingPage from './Pages/SortingPage';
 import ArraySearchVisualizer from './Pages/ArraySearchPage';
+import LinkedListPage from './Pages/LinkedListPage';
 
 function App()
 {
@@ -22,7 +23,7 @@ function App()
           {/* <Route index element={} /> */}
           <Route path='sorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
-          
+          <Route path='linkedList' element={<LinkedListPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>
