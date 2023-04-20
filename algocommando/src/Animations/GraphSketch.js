@@ -8,7 +8,6 @@ let start = false
 const canvasHeight = window.innerHeight / 2
 const canvasWidth = window.innerWidth - 200
 const vertexRatio = 0.6 * canvasWidth / 50 + canvasHeight / 25;
-let mode = "minPath"
 
 let vertices = {}
 let vID = 1
@@ -112,7 +111,7 @@ const Dijkstra = async (startID, destinyID) =>
     {
         const minVertexID = minimumForDijkstra(verticesSet)
         const minVertex = verticesSet[minVertexID]
-        minVertex.color = "grey"
+        minVertex.color = "purple"
         await new Promise((resolve) => setTimeout(resolve, 1000))
         minVertex.edgeColor = "orange"
         await new Promise((resolve) => setTimeout(resolve, 1000))
@@ -122,7 +121,7 @@ const Dijkstra = async (startID, destinyID) =>
         {
             const neighbourVertex = vertices[neighbourID]
             const distance = minVertex.distance + minVertex.edgeCostMap[neighbourID]
-            neighbourVertex.color = "grey"
+            neighbourVertex.color = "purple"
             await new Promise((resolve) => setTimeout(resolve, 1000))
             minVertex.edgeColor = minVertex.defaultEdgeColor
 
@@ -147,6 +146,7 @@ const Dijkstra = async (startID, destinyID) =>
             destinyID = vertices[destinyID].previousVID
         }
         path.push(destinyID)
+        displayText = true
         for (let x = path.length - 1; x > 0; x--)
         {
             const vertex = vertices[path[x]]
@@ -154,10 +154,6 @@ const Dijkstra = async (startID, destinyID) =>
             await new Promise((resolve) => setTimeout(resolve, 500))
         }
         vertices[path[0]].color = "green"
-    }
-    else
-    {
-        displayText = true
     }
 }
 
@@ -176,7 +172,6 @@ function sketch(p5)
         vertices[2].edgeCostMap[4] = 5
         vertices[3].edgeCostMap[2] = 3
         vertices[4].edgeCostMap[5] = 7
-
     }
     p5.draw = () =>
     {
@@ -188,7 +183,14 @@ function sketch(p5)
         }
         if (start)
             if (!found)
-                Dijkstra(1, 3, p5)
+                Dijkstra(1, 5, p5)
+        if (displayText)
+        {
+            p5.strokeWeight(1)
+            p5.stroke("blue")
+            p5.fill("blue")
+            p5.text("Found the shortest path.", 80, 80)
+        }
     }
 }
 
@@ -198,11 +200,10 @@ export default function GraphSketch()
     return (
         <>
             <Box>
-                Message to display
+                Finding minimum path using Dijkstra Algorithm from node 1 to 5.
             </Box>
             <ReactP5Wrapper sketch={(p5) => sketch(p5, sortingState)} />
             <Button onClick={() => { start = true }}>Start</Button>
-            <Button onClick={() => { mode = "vertex" }}>Vertex</Button>
 
         </>
     )

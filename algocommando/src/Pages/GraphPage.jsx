@@ -82,9 +82,6 @@ const GraphPage = () =>
                         Shortest Path
                     </Typography>
                     <GraphSketch />
-                    <Box style={{marginTop: '1rem'}}>
-                        <Button onClick={() => dispatch(startAnimation())}>Visualize</Button>
-                    </Box>
                 </Box>
             </Paper>
         </> )}
