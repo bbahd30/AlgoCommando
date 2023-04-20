@@ -5,6 +5,7 @@ import {ReactP5Wrapper} from "react-p5-wrapper"
 import { Paper, Box, Typography, Grid } from '@mui/material'
 import { Button } from '@mui/material'
 import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
+import {Navigation} from "../components/navigation"
 
 import { addElement, deleteElement,updateElement } from '../Slices/sortingSlice'
 import CancelIcon from '@mui/icons-material/Cancel';
@@ -73,6 +74,7 @@ const SortingPage = () =>
     
     return (
         <>
+        <Navigation/>
             <Paper sx={{ boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.14)', backdropFilter: 'blur(18px)', '-webkit-backdrop-filter': 'blur(5px)', minHeight: '100vh',   overflowY: 'hidden', background: '#608dfd'
             }} elevation={8} >
                 <Box style={{

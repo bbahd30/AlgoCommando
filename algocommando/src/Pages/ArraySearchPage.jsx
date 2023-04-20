@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Header } from "../components/header";
+import { Navigation } from '../components/navigation';
+import JsonData from ".././data/data.json";
+
 import '../css/ArraySearch.css'
 
 export default function ArraySearchVisualizer() {
@@ -12,8 +16,13 @@ export default function ArraySearchVisualizer() {
     const [searchUnsuccessful,setSearchUnsuccessful]=useState(false);
     const [searchSuccessful,setSearchSuccessful]=useState(false);
     const [iterations,setIterations]=useState(-1);
+    const [landingPageData, setLandingPageData] = useState({});
     let values=null;
     let traversedIndices=[];
+    
+    useEffect(() => {
+        setLandingPageData(JsonData);
+    }, []);
     useEffect(()=>{
         if(isLinearSearch){
             LinearSearch()
@@ -180,6 +189,9 @@ export default function ArraySearchVisualizer() {
     }
   // ...
   return (
+    <>
+    <Navigation />
+    <Header data={landingPageData.Header} />
     <div className="container-array">
       <label className="label" htmlFor="array">Array:</label>
       <input className="input" id="array" type="text" onChange={handleArrayChange} />
@@ -222,6 +234,7 @@ export default function ArraySearchVisualizer() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
