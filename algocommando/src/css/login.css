@@ -1,0 +1,219 @@
+.full-back {
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* mix-blend-mode: lighten; */
+    background-image: url("./loginbg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 420px;
+
+    /* left: 450px;
+      top: 266px; */
+    background: #080826;
+    border: 1px solid #21213c;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(185, 95, 249, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login-head {
+    width: auto;
+    height: 30px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.border {
+    /* position: absolute; */
+    width: 100%;
+    height: 0px;
+
+    margin-top: 12px;
+    border: 1px dashed #42526d;
+}
+
+.login-form-1 {
+    margin-top: 25px;
+}
+
+.fill-it-email {
+    /* position: absolute; */
+    float: left;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 17px; */
+
+    color: #a7b7df;
+}
+
+.fill-it-password {
+    float: left;
+    margin-top: 15px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #a7b7df;
+}
+
+.text-danger {
+    margin-top: 10px;
+    color: rgb(228, 36, 36);
+}
+
+.text-info {
+    margin-top: 10px;
+    color: #b68af7;
+}
+
+.email {
+    /* position: absolute; */
+    float: left;
+    margin-top: 10px;
+    width: 380px;
+
+    height: 41px;
+    background: #21213c;
+    border: 1px solid #21213c;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.password {
+    /* position: absolute; */
+    outline: none;
+    border: none;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    width: 380px;
+    height: 41px;
+    background: #21213c;
+    border: 1px solid #21213c;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+}
+
+.forgot-pass {
+    /* position: absolute; */
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* width: 109px;
+      height: 17px;
+      left: 479px;
+      top: 272px; */
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-login {
+        width: 260px !important
+    }
+}
+
+.btn-login {
+    width: 380px;
+    height: 41px;
+    border-radius: 8px;
+    flex: 1 1 auto;
+    margin-top: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #ff5506 1%, #ff9844 99%);
+}
+
+.btn-login:hover {
+    background-position: right center;
+}
+
+.trouble {
+    margin-top: 12px !important;
+
+    text-align: center;
+    align-self: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+a{
+    color: #ff5506;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form {
+        width: 300px;
+    }
+
+    .border {
+        /* position: absolute; */
+        width: 260px;
+    }
+
+    .email {
+        /* position: absolute; */
+
+        width: 260px;
+    }
+
+    .password {
+        width: 260px;
+    }
+
+    .btn {
+        width: 260px;
+    }
+}

@@ -6,13 +6,11 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SortingPage from './Pages/SortingPage';
 import ArraySearchVisualizer from './Pages/ArraySearchPage';
+import TreeRenderer from './Pages/TreePage';
 
 function App()
 {
   
-
-
-
   return (
     <BrowserRouter>
       <Routes>
@@ -22,6 +20,7 @@ function App()
           {/* <Route index element={} /> */}
           <Route path='sorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
+          <Route path='tree' element={<TreeRenderer />} />
           
         </Route>
       </Routes>
