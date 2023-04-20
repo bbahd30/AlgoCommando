@@ -14,6 +14,7 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SortingPage from './Pages/SortingPage';
 import ArraySearchVisualizer from './Pages/ArraySearchPage';
+import GraphPage from './Pages/GraphPage';
 import LinkedListPage from './Pages/LinkedListPage';
 
 import SmoothScroll from "smooth-scroll";
@@ -25,7 +26,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 function App()
 {
-  
+
 
 
 
@@ -35,7 +36,7 @@ function App()
         <Route path='/' element={<HomePage />} />
         <Route path='/login' element={<LoginPage />} />
         <Route path='/learn'>
-          {/* <Route index element={} /> */}
+          <Route path='graph' element={<GraphPage />} />
           <Route path='arraySorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
           <Route path='linkedList' element={<LinkedListPage/>} />
