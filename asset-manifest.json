@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AlgoCommando/static/css/main.cf711d84.css",
+    "main.js": "/AlgoCommando/static/js/main.20608528.js",
+    "static/media/renderer-bg.jpg": "/AlgoCommando/static/media/renderer-bg.fd80e42996590aeb0c06.jpg",
+    "static/media/glyphicons-halflings-regular.svg": "/AlgoCommando/static/media/glyphicons-halflings-regular.9a17786234899efcc963.svg",
+    "static/media/DFS.gif": "/AlgoCommando/static/media/DFS.8459670aea172fa1a14d.gif",
+    "static/media/BFS.gif": "/AlgoCommando/static/media/BFS.4106969db56cdc589bc2.gif",
+    "static/media/loginbg.jpg": "/AlgoCommando/static/media/loginbg.d10990b10e5b5add10ae.jpg",
+    "static/media/glyphicons-halflings-regular.ttf": "/AlgoCommando/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/AlgoCommando/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/AlgoCommando/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/AlgoCommando/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/AlgoCommando/index.html",
+    "main.cf711d84.css.map": "/AlgoCommando/static/css/main.cf711d84.css.map",
+    "main.20608528.js.map": "/AlgoCommando/static/js/main.20608528.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf711d84.css",
+    "static/js/main.20608528.js"
+  ]
+}
