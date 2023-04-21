@@ -44,7 +44,7 @@ function App()
           <Route path='arraySorting' element={<SortingPage />} />
           <Route path='arraySearch' element={<ArraySearchVisualizer/>} />
 
-          <Route path='tree' element={<TreeRenderer />} />
+          <Route path='trees' element={<TreeRenderer />} />
           
 
           <Route path='linkedList' element={<LinkedListPage/>} />
