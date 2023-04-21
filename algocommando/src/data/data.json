@@ -95,21 +95,21 @@
     },
     {
       "icon": "fa fa-link",
-      "name": "Linkedlist",
-      "text": "Linkedlist are dynamic structures far more optimised than arrays.Visualize different operations & algorithms on linkedlist",
+      "name": "Linked List",
+      "text": "Linked lists are dynamic structures far more optimised than arrays.Visualize different operations & algorithms on linkedlist",
       "href": "learn/linkedList"
     },
     {
       "icon": "fa fa-tree",
       "name": "Trees",
-      "text": "A binary tree is a special case of a tree data structure, where each node in the tree has at most two child nodes, known as the left child and the right child.Analyze different traversal algorithms on Binary search trees.",
+      "text": "A tree data structure is a hierarchical structure that is used to represent and organize data in a way that is easy to navigate and search. It is a collection of nodes that are connected by edges and has a hierarchical relationship between the nodes.",
       "href": "learn/trees"
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-      "href": "#"
+      "icon": "fa fa-code-fork",
+      "name": "Minimum Path",
+      "text": "Dijkstra's Algorithm finds the shortest path between a given node (which is called the 'source node') and all other nodes in a graph. This algorithm uses the weights of the edges to find the path that minimizes the total distance (weight) between the source node and all other nodes.",
+      "href": "learn/minPath"
     }
   ],
   "Testimonials": [
@@ -160,7 +160,7 @@
       "name": "Hrishit B P",
       "job": "Student, IITR CSE"
     },
-    
+
     {
       "img": "img/team/Sachin.jpeg",
       "name": "Sachin Jangid",
@@ -176,7 +176,6 @@
       "name": "Sutirtha Ghosh",
       "job": "Student, IITR CSE"
     }
-    
   ],
   "Contact": {
     "address": "Computer Science Dept., IIT Roorkee, Roorkee Uttarakhand, India, 267667. ",
